@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Get Rich</string>
+    <string name = "name">Nume: </string>
+    <string name = "level">Nivel: </string>
+    <string name = "value">Valoare: </string>
+    <string name = "location">Locatie: </string>
+    <string name = "description">Descriere: </string>
+
+</resources>

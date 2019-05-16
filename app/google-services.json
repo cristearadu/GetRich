@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "120411877754",
+    "firebase_url": "https://getrich-4bd40.firebaseio.com",
+    "project_id": "getrich-4bd40",
+    "storage_bucket": "getrich-4bd40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120411877754:android:553ef25314fa4c3f",
+        "android_client_info": {
+          "package_name": "com.examplee.radu.getrich"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120411877754-rkcpuits0g1vat1cfvuvvvo31rkcmgph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.examplee.radu.getrich",
+            "certificate_hash": "f82afbdf4f89a6881d7e99831a571131bb4a513b"
+          }
+        },
+        {
+          "client_id": "120411877754-6uu5h0gr7d2nrc47ehljsagupmrobb8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKpqpAF44lBB_Cua2gPgVxZVBxaRkFEnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120411877754-6uu5h0gr7d2nrc47ehljsagupmrobb8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
