@@ -130,12 +130,12 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
                                     }
                                 });
                             }
-                            Toast.makeText(getApplicationContext(),"User registered successfull",Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),"Te-ai inregistrat cu succes",Toast.LENGTH_LONG).show();
                             finish();
                         }
                         else
                         {
-                            Toast.makeText(getApplicationContext(),"Some error occured",Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),"A aparut o problema la conexiune",Toast.LENGTH_LONG).show();
                         }
                     }
                 });

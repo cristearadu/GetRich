@@ -51,7 +51,7 @@ public class VeziSaraci extends AppCompatActivity {
                     if (ds.getKey().equals(uid)) {
                         Profile userLogged = ds.getValue(Profile.class);
                         if (userLogged.getValue() == 0) {
-                            Toast.makeText(getApplicationContext(), "Donate to see all the poor people", Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(), "Doneaza bani ca sa vezi toti saracii!", Toast.LENGTH_LONG).show();
                             readyToShow = false;
                         } else if (userLogged.getValue() != 0) {
                             value = userLogged.getValue();
@@ -78,7 +78,7 @@ public class VeziSaraci extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
-                Toast.makeText(VeziSaraci.this, "Something is wrong", Toast.LENGTH_SHORT).show();
+                Toast.makeText(VeziSaraci.this, "Probleme la conexiune", Toast.LENGTH_SHORT).show();
             }
         });
     }

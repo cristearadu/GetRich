@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         }
                         else
                         {
-                            Toast.makeText(getApplicationContext(),"Sign in failed",Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),"Nu te-ai putut conecta",Toast.LENGTH_LONG).show();
                         }
                     }
                 });

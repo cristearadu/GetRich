@@ -138,6 +138,6 @@ public class Donate extends AppCompatActivity {
             mUserDB.updateChildren(hopperUpdates);
         }
 
-        Toast.makeText(getApplicationContext(), "You have donated " + donateText + " €", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "Felicitari! Ai donat: " + donateText + " €", Toast.LENGTH_LONG).show();
     }
 }

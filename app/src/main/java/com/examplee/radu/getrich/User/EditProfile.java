@@ -113,7 +113,7 @@ public class EditProfile extends AppCompatActivity {
         hopperUpdates.put("description",descriptionText);
         mUserDB.updateChildren(hopperUpdates);
 
-        Toast.makeText(getApplicationContext(),"Update done",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(),"S-a facut un update",Toast.LENGTH_SHORT).show();
     }
 
     private void showData(DataSnapshot dataSnapshot) {
