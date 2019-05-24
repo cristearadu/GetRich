@@ -6,5 +6,4 @@ The idea is to donate money so you do not feel poor and see the list of users po
 The server and database is hosted by Firbase.
 
 Login & SignUp with firebase.
-You can edit your profile, donate money(not real money, just a bunch of strings variables), and see the users poorer than you. 
-I used recycleView,RecyclerView.Adapter to iterate through all my users.
+You can edit your profile, donate money(not real money, just a bunch of strings variables), and see the users that are poorer than you.
